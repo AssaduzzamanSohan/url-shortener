@@ -1,0 +1,322 @@
+// iOS native app status bar does not take up space, so we need to pad out the application by 20px
+// in order to bring the app below it.
+body.x-ios.x-webview.x-portrait {
+  margin-top: 20px;
+}
+
+.accordion-shortcut {
+  background-image: url(images/im48x48.png);
+}
+
+.cpu-shortcut {
+  background-image: url(images/statusLarge.png);
+}
+
+.grid-shortcut {
+  background-image: url(images/grid48x48.png);
+}
+
+.notepad-shortcut {
+  background-image: url(images/notepadLarge.png);
+  width: 46px;
+  height: 46px;
+}
+
+.x-ie6 .accordion-shortcut {
+  background-image: none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/im48x48.png', sizingMethod='scale');
+}
+
+.x-ie6 .cpu-shortcut {
+  background-image: none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/status Large.png', sizingMethod='scale');
+}
+
+.x-ie6 .grid-shortcut {
+  background-image: none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/grid48x48.png', sizingMethod='scale');
+}
+
+.x-ie6 .notepad-shortcut {
+  background-image: none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/notepadLarge.png', sizingMethod='scale');
+}
+
+.video {
+  background-image: url(images/gears.gif);
+}
+
+.bogus {
+  background-image: url( images/bogus.png ) !important;
+}
+
+.notepad {
+  background-image: url( images/bogus.png ) !important;
+}
+
+.logout {
+  background-image: url( images/logout.gif ) !important;
+}
+
+.change-password {
+  background-image: url( images/change_password.gif ) !important;
+}
+
+.settings {
+  background-image: url( images/gears.gif ) !important;
+}
+
+
+.icon-grid {
+  background-image:url( images/grid.png ) !important;
+}
+.icon-admin-grid {
+  background-image: url(images/admin-grid.gif);
+}
+.admin-shortcut {
+  background-image: url(images/im48x48.png);
+}
+
+.remittance-shortcut {
+  background-image:url(images/remittance.png) !important;
+}
+
+.report-shortcut {
+  background-image:url(images/report.jpg) !important;
+}
+
+.bulkSms-shortcut {
+  background-image:url(images/bulkSms.png) !important;
+}
+
+// GoAML desktop shortcut icon
+.goaml-shortcut {
+  background-image:url(images/goaml.png) !important;
+}
+
+// RECONCILIATION desktop shortcut icon
+.reconciliation-shortcut {
+  background-image:url(images/recon.png) !important;
+}
+
+// GoAML window titlebar icon
+.goaml-win {
+  background-image:url(images/goaml-win.png) !important;
+}
+
+// Bureau De Change window titlebar icon
+.bureau-change-shortcut {
+  background-image:url(images/bureau-change-win.png) !important;
+}
+
+.sarb-shortcut {
+  background-image:url(images/sarb.jpg) !important;
+}
+
+.bulkSms-send {
+  background-image:url(images/daily_transactions_sm.png) !important;
+}
+
+.sebl-shortcut {
+  background-image:url( images/ofac-search2.png) !important;
+}
+.main-win {
+  background-image:url( images/user-account.png) !important;
+}
+.option {
+  background-image:url(shared/icons/fam/plugin.gif) !important;
+}
+.remove {
+  background-image:url(shared/icons/fam/delete.gif) !important;
+}
+.save {
+  background-image:url(images/save_button.gif) !important;
+}
+.accordion {
+  background-image:url(images/accordian.gif) !important;
+}
+.tabs {
+  background-image:url(images/tabs.gif) !important;
+}
+.icon_padlock {
+  background-image:url(images/icon_padlock.png) !important;
+}
+.add {
+  background-image:url(images/add.png) !important;
+}
+.cancel_button {
+  background-image:url(images/cancel_button.png) !important;
+}
+.clear_button {
+  background-image:url(images/clear_button.png) !important;
+}
+// Used in GoAML toolbar
+.cleaning_brush {
+  background-image:url(images/cleaning_brush.png) !important;
+}
+.search-icon {
+  background-image:url(images/search-icon.png) !important;
+}
+
+.pdf-icon {
+  background-image:url(images/pdf-icon.png) !important;
+}
+
+.approve_icon {
+  background-image:url(images/approve_button.png) !important;
+}
+
+// Insert item buttion
+.insert_icon {
+  background-image:url(images/add.png) !important;
+}
+
+.submit_icon {
+  background-image:url(images/submit_button.png) !important;
+}
+
+.report_icon {
+  background-image:url(images/reports_sm.png) !important;
+}
+
+.back_icon {
+  background-image:url(images/back_icon16.png) !important;
+}
+
+/*----------------------------------------------------
+    IM window icons
+*/
+
+.user {
+  background-image:url( shared/icons/fam/user.gif ) !important;
+}
+
+.user-add {
+  background-image:url(shared/icons/fam/user_add.gif) !important;
+}
+
+.user-delete {
+  background-image:url(shared/icons/fam/user_delete.gif) !important;
+}
+
+.connect {
+  background-image:url(shared/icons/fam/connect.gif) !important;
+}
+
+.user-girl {
+  background-image:url(shared/icons/fam/user_female.gif) !important;
+}
+
+.user-kid {
+  background-image:url(shared/icons/fam/user_green.gif) !important;
+}
+
+.user-suit {
+  background-image:url(shared/icons/fam/user_suit.gif) !important;
+}
+
+.send-bank {
+  background-image:url(shared/icons/fam/application_go.png) !important;
+}
+
+.invoice-icon {
+  background-image:url(images/pdf-icon.png) !important;
+}
+
+.add-note {
+  background-image:url(images/note_add.png) !important;
+}
+
+.edit-note {
+  background-image:url(images/edit_notes.png) !important;
+}
+
+.file-upload {
+  background-image:url(images/file-upload.png) !important;
+}
+
+.update {
+  background-image:url(images/images.png) !important;
+}
+
+.block {
+  background-image:url(images/block.png) !important;
+}
+
+.unblock {
+  background-image:url(images/unblock.jpg) !important;
+}
+
+.bck-new {
+  background-image:url(images/back.jpg) !important;
+}
+
+.clr-new {
+  background-image:url(images/clear.png) !important;
+}
+
+.dlt-new {
+  background-image:url(images/delete.jpg) !important;
+}
+
+.replace-btn {
+  background-image:url(images/replace.png) !important;
+}
+
+.refund-btn {
+  background-image:url(images/refund.png) !important;
+}
+
+.reportnew-btn {
+  background-image:url(images/report.gif) !important;
+}
+
+.csvreport-btn {
+  background-image:url(images/csvrep.jpg) !important;
+}
+
+.setting-icon {
+  background-image:url(images/setting.jpg) !important;
+}
+
+.report-icon{
+  background-image:url(images/report.png) !important;
+}
+
+.resetbtn{
+  background-image:url(images/refresh.png) !important;
+}
+
+.refresh{
+  background-image:url(images/refresh.png) !important;
+}
+
+.round-corners {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.dasboard{
+  background-image:url(images/dashboard.png) !important;
+}
+
+.upload{
+  background-image:url(images/upload.png) !important;
+}
+
+.link{
+  background-image:url(images/link.png) !important;
+}
+
+.unlink{
+  background-image:url(images/unlink.png) !important;
+}
+
+.grid-delete {
+  background-image:  url('images/minus-4-16.png');
+  background-repeat: no-repeat;
+}

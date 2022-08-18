@@ -1,0 +1,15 @@
+package com.example.urlshortener.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@Data
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
+public class UrlDto {
+    private String longUrl;
+    private String shortUrl;
+}
