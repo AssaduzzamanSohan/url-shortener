@@ -1,0 +1,38 @@
+# Customer-Management
+  # Check ui-screenshot.docx file to know how UI look like
+  # If you want go through source code.
+    1. Customer-Management\server for server source code
+    2. Customer-Management\ui for UI source code
+
+# Pre Requisite
+  1. Apache Tomcat Server (To Run Project)
+  2. Redis (To Store Data)
+
+# How To Run Project
+  1. Copy  url-shortener/builted/url-shortener-server.war 
+      and url-shortener/builted/url-shortener.zip 
+      to Tomcat/webapps/ folder and extract the zip file
+
+# Project Server Configuration
+  # Tomcat/webapps/url-shortener-server/WEB-INF/classes/logback.properties file config
+    1. log.root.dir path, where you want to save project log. 
+  # Open Tomcat/webapps/url-shortener-server/WEB-INF/classes/application-dev.properties file config, and give your value for
+    1. spring.redis.host=
+    2. spring.redis.port=
+    3. spring.redis.database=
+    
+# Project UI Configuration
+  # Open Tomcat/webapps/url-shortener/classic/app.js file config  
+    1.  Go to line no 95668 or search by "http://localhost:8080/url-shortener-server/create-short-url"
+         *** Change localhost:8080 to your IP and Port
+         *** If you are running UI in same tomcat then keep, ip = localhost
+         *** port = tomcat running port (By default it is 8080), change if you changed tomcat running port
+    
+# Project Backlog
+  Due to this is just an assesment so there might be sume issues such as
+  1. IP in short url: we are taking ip from system so if we deploy on a vm then can cause an issue, providing domain name will solve the issue.
+  2. Context path: this is taking from pom.xml file, so we must keep this align wih deployment 
+
+# Project view
+  1. Start Apache Tomcat Server
+  2. Open browser and go to http://localhost:8080/Customer link
